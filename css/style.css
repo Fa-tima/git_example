@@ -1,0 +1,147 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    header {
+        background-position: center center;
+        background-size: 100% 100%;
+        height: 100vh;
+        background-image: url(../img/slideshow-1.jpg);
+    }
+    
+    @keyframes fadeInRight {
+        0% {
+            opacity: 0;
+            transform: translateX(20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    
+    .ff {
+        height: 100vh;
+    }
+    
+    .arrow-buttom {
+        top: 65px;
+    }
+    
+    .arrow-top {
+        top: -64px;
+    }
+    
+    .arrow-top span {
+        border: 2px solid;
+        padding: 20px;
+    }
+    
+    .arrow-buttom span {
+        border: 2px solid;
+        border-top: 0px;
+        padding: 20px;
+    }
+    
+    #home .carousel-control-prev {
+        width: 2%;
+    }
+    
+    .carousel-item {
+        height: 100vh;
+        min-height: 300px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+    .carousel-caption {
+        bottom: 220px;
+    }
+    
+    .carousel-caption h2 {
+        font-size: 80px;
+        letter-spacing: 2px;
+        font-family: poppins;
+    }
+    /* start nav*/
+    
+    .navbar-dark .navbar-nav .active>.nav-link {
+        color: red;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link {
+        color: white;
+    }
+    
+    .sticky {
+        background-color: black;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        color: black;
+    }
+    /* start about*/
+    
+    #about h2 {
+        font-size: 80px;
+        color: #f1f1f1;
+        font-weight: bold;
+    }
+    
+    #about h3 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .bord {
+        width: 5%;
+        height: 1px;
+        background-color: black;
+    }
+    
+    .tcolors {
+        font-size: 18px;
+        color: #999;
+        margin-bottom: 70p
+    }
+    
+    #about .tcolor {
+        font-size: 14px;
+        line-height: 1.75em;
+        color: #666;
+    }
+    
+    .prog1 {
+        display: flex;
+        width: 80%;
+    }
+    
+    .prog2 {
+        display: flex;
+        width: 95%;
+    }
+    
+    .progres div p {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+    
+    .prog3 {
+        display: flex;
+        width: 85%;
+    }
+    
+    .prog4 {
+        display: flex;
+        width: 70%;
+    }
+    
+    .progress {
+        height: 4px;
+        margin-top: px;
+    }
+    /* end about*/
