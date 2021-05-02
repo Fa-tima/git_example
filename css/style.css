@@ -196,4 +196,31 @@
     margin-top: 60%;
     padding: 10px;
  
+} 
+
+
+/* --------------services----------- */
+
+#services .services {
+    padding-top: 30px;
+}
+
+#services .services .a {
+    position: relative;
+    top: 50px;
+    opacity: 0.1;
+    line-height: 38px;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+#services .services h2 {
+    margin-bottom: 20px;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+#services.services p {
+    padding: 20px;
 }
