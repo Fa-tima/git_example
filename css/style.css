@@ -224,3 +224,207 @@
 #services.services p {
     padding: 20px;
 }
+#touch{  
+    background-color: #fafafa;
+    padding-top: 100px; 
+    margin-bottom: 50px;
+}
+#touch .touch-text h2 { 
+    font-size:80px ; 
+    color: #f1f1f1;   
+    font-weight: 700; 
+    margin-bottom: 50px;
+    }  
+    
+    #touch .touch-text h1{ 
+        font-size: 40px;  
+    font-weight: 800;    
+     color: #282828; 
+     line-height: 800;
+    
+    } 
+ #touch .touch-text::after { 
+    width: 40px;
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: red;
+    top: 100px;
+    transition: all 1s; 
+} 
+#touch .touch-pra p{ 
+    color: #999; 
+    font-size: 18px; 
+    
+}  
+
+.touch-topic i{ 
+    float: left; 
+    font-size: 40px; 
+    color: #f25454; 
+    line-height: 45px; 
+    margin-right: 20px;
+}
+ 
+
+.touch-topic .touch-contact{ 
+    margin-bottom: 2px; 
+    padding-bottom: 7px; 
+    position: relative ; 
+    font-size: 12px; 
+    margin-left: 15px; 
+    
+} 
+.touch-contact h3{ 
+    font-size: 18px; 
+    transition: all 0.4s; 
+    font-weight: 600;  
+    margin-top: 3px; 
+    transition: all .3s; 
+    color: #282828;
+}.touch-contact h3:hover{ 
+color: #f25454;
+} 
+.touch-contact p{ 
+    font-size: 14px; 
+    color: #666;   
+
+}  
+/*------------*/ 
+.information input{   
+    padding: 14px; 
+    margin-bottom: 29px;  
+    padding-bottom: 12px;
+
+}   
+.information textarea{ 
+margin-top: 20px;
+}
+
+
+.btn{ 
+    background-color: #f25454; 
+    color: #fff; 
+    transition: all .3s; 
+}   
+.btn:hover{ 
+    opacity: 0;  
+    color: #f38383;
+
+} 
+.btn a{ 
+    font-size: 17px; 
+    font-weight: 600; 
+}
+
+.icons-list{ 
+    border: 4px 6px solid red;
+} 
+  .form-control { 
+    height: 40px;  
+    margin-top: 20px;
+} 
+/*------------------------------------*/ 
+.copy-bg{ 
+    background-image: url("../img/dotted-map.png"); 
+    background-position: center; 
+    background-size: cover; 
+    height: 60vh; 
+    background-color: #282828;  
+    bottom: 100px; 
+    top: 20px;
+
+}  
+.chevron{ 
+    position: relative; 
+    background-color:rgba(185, 27, 27, 0.5); 
+    margin-bottom:30px ; 
+    bottom: 70px; 
+    border: 6px 4px solid rgba(185, 27, 27, 0.5); 
+    width: 40px; 
+    height: 40px; 
+    text-align: center; 
+    margin: auto; 
+    border-radius: 50%;
+} 
+.chevron .fas{ 
+    color: #fff;
+}  
+.copy-items h4{ 
+    font-size: 20px; 
+    color: #fff;
+} 
+.copy-items .copy-text p ,a{ 
+color: #999;  
+font-weight: 600;
+font-size: 14px;  
+transition: all .3s; 
+text-decoration: none;
+} 
+.copy-items .copy-text a:hover{  
+    text-decoration: none;
+color: #f25454;
+}   
+.copy-items .copy-text2 a {
+color: #999;  
+font-weight: 600;
+font-size: 14px;  
+transition: all .3s; 
+text-decoration: none; 
+list-style: none;
+} 
+.copy-items .copy-text2 a:hover{ 
+    color: #f25454; 
+    text-decoration: none;
+}
+.copy-items .copy-text2 .job{ 
+    border: 1px solid #999;  
+    border-radius: 2px;
+   padding: 4px 6px; 
+   margin-right: 2px; 
+   margin-top: 20px; 
+   transition:  all .3s;
+} 
+.copy-items .copy-text2 .job:hover{ 
+    border-color: #f25454;
+} 
+@media (min-width: 768px) {  
+    cop-items{ 
+        color: black;
+    }
+ } 
+ /*------------------------------*/  
+ #Angora-end{ 
+     background-color: #1a1a1a; 
+     height: 15%;
+ } 
+ 
+ .copyright { 
+  right: 50%;  
+  margin-top:45px; 
+  color: #999; 
+  text-decoration: none;
+ }  
+ .copyright a{ 
+     text-decoration: none; 
+     color: #f1f1f1; 
+     font-size: 14px;
+ } 
+ .copyright a:hover{ 
+     color: #f25454;
+ }
+ .angora-copy { 
+     margin-top: 45px; 
+     font-size:14px; 
+ 
+ }  
+
+ .angora-copy a { 
+     font-size: 16px; 
+     padding-left: 15px; 
+     color: #fff; 
+     transition: all .3s;
+ } 
+ .angora-copy a:hover { 
+     color: #f25454;
+ }
